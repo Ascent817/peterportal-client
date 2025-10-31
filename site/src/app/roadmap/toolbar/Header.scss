@@ -2,7 +2,7 @@
 
 .roadmap-header {
   border-radius: var(--border-radius);
-  color: var(--ring-road-white);
+  color: white;
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
@@ -83,6 +83,9 @@
         font-size: 13px;
         padding-inline: 8px 6px;
       }
+      &[disabled] {
+        color: #fff4;
+      }
     }
   }
 }
@@ -99,7 +102,7 @@
 .header-btn:hover,
 .header-btn:focus {
   background-color: transparent;
-  color: var(--ring-road-white);
+  color: white;
 }
 
 .header-icon {
